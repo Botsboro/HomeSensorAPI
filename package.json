@@ -1,0 +1,30 @@
+{
+	"name": "HomeSensorApi",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A basic Heroku-compatible API for receiving readings from various physical sensors.",
+    "author": "Rob Zimmerman <taintedz@gmail.com>",
+	"main": "./bin/www",
+    "script": {
+        "start": "node ./bin/www.js"
+    },
+	"dependencies": {
+		"express": "~4.2.0",
+        "express-validator": "~2.7.0",
+        "express-sanitizer": "~0.1.0",
+		"mongoose": "~3.8.11",
+		"body-parser": "~1.0.1",
+        "compression": "~1.2.2"
+	},
+    "engines": {
+        "node": "0.11.14"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/taintedzodiac/HomeSensorAPI"
+    },
+    "bugs": {
+        "url": "https://github.com/taintedzodiac/HomeSensorAPI/issues"
+    },
+    "license": "MIT"
+}
