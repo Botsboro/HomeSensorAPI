@@ -6,10 +6,10 @@ Accepts a JSON payload and stores the data to MongoDB for retrieval later.
 
 Example POST payload for a temperature reading in a child's nursery room:
 
-```
+```JSON
 {
-  room: "nursery", 
-  value: 20.6
-  sensor: "temperature"
+  "room": "nursery", 
+  "value": 20.6,
+  "sensor": "temperature"
 }
 ```
